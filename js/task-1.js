@@ -1,6 +1,6 @@
 `use strict`;
 const getUserNames = users => {
-  let nameArr = [];
+  const nameArr = [];
   for (const el of users) {
     nameArr.push(el.name);
   }
