@@ -1,11 +1,6 @@
 `use strict`;
-const getUserNames = users => {
-  const nameArr = [];
-  for (const el of users) {
-    nameArr.push(el.name);
-  }
-  return nameArr;
-};
+const getUserNames = users => users.map(user => user.name);
+
 console.log(
   getUserNames([
     {
